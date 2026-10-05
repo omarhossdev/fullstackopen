@@ -10,5 +10,4 @@ My solutions for the [Full Stack Open](https://fullstackopen.com/en/) course by 
 
 ## Part 1 - Introduction to React.js
 
-* [Exercise 1.1: Course Information, step 1](./part1/courseinfo/src/App.jsx)
-* [Exercise 1.2: Course Information, step 2](./part1/courseinfo/src/App.jsx)
+[Exercises 1.1 to 1.5: Course Information](./part1/courseinfo/src/App.jsx)
