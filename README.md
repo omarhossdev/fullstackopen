@@ -17,3 +17,11 @@ My solutions for the [Full Stack Open](https://fullstackopen.com/en/) course by 
 ### A more complex state, debugging React apps
 
 - [Exercises 1.6 to 1.11: Unicafe](./part1/unicafe/src/App.jsx)
+- [Exercises 1.12 to 1.14: Anecdotes](./part1/anecdotes/src/App.jsx)
+
+#### Anecdotes
+
+In this project I've learnt more in React.js in my own so I can make the project more real world, here is what I've done so far beyond the exercises:
+
+1. I created `tempArr` state variable that keeps tracking of all generated indexes so we don't see the same anecdote multiple times and then when it's length is equal to anecdotes length, we simply clean it (using `useEffect` because it tracks it in every change) so we start with a clean *tempArr* and new random indexes.
+2. I developed `MostVotedAnecdote` that first checks if `votes` state variable (array) is all zeros, if yes then **return** immediately, however, if it has any value that is > 0 then render the header text with that anecdote.
